@@ -16,7 +16,7 @@ $(document).ready(function () {
   function updateHourStyles() {
 
     const currentHour = dayjs().hour();
-
+    
     $(".time-block").each(function () {
       const timeBlockId = $(this).attr("id");
       const hour = parseInt(timeBlockId.split("-")[1]);
